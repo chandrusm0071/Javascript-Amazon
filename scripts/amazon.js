@@ -67,7 +67,9 @@ function updateCartQuantity(){
         });
 
             document.querySelector('.js-cart-quantity').innerHTML = cartQuantity
-}
+};
+updateCartQuantity();
+
 // THEN attach event listeners (now the buttons exist!)
 document.querySelectorAll('.js-add-to-cart')
     .forEach((button)=>{
